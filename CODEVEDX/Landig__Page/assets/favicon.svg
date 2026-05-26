@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Kothuru Asini logo">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ae4ff"/>
+      <stop offset="55%" stop-color="#7c84ff"/>
+      <stop offset="100%" stop-color="#b36bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="36" fill="#050816"/>
+  <circle cx="64" cy="64" r="42" fill="url(#g)" opacity="0.22"/>
+  <circle cx="64" cy="64" r="26" fill="none" stroke="url(#g)" stroke-width="6"/>
+  <path d="M46 84V44h9v14l15-14h12L63 61l19 23H70L55 66v18z" fill="#f2f7ff"/>
+</svg>

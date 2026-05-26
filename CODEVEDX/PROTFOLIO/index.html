@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium personal portfolio for Kothuru Asini, a Computer Science student and aspiring software developer." />
+  <meta name="theme-color" content="#070b16" />
+  <title>Kothuru Asini | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader-overlay" aria-hidden="true">
+    <div class="loader-orb"></div>
+    <p>Loading portfolio</p>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="ambient-layer" aria-hidden="true"></div>
+  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <nav class="navbar">
+        <a class="brand" href="#home" aria-label="Kothuru Asini home">
+          <span class="brand-mark">KA</span>
+          <span class="brand-text">
+            <strong>Kothuru Asini</strong>
+            <small>Portfolio</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Computer Science Student | Aspiring Software Developer</p>
+            <h1>Hi, I'm Kothuru Asini</h1>
+            <p class="hero-role">I build clean, intelligent web experiences for real-world problems.</p>
+            <h2 class="typing-wrap" aria-live="polite">
+              <span class="typing-prefix">Computer Science Student | </span><span class="typing-role" data-roles="AI & Web Developer|Problem Solver|Machine Learning Enthusiast">AI & Web Developer</span>
+            </h2>
+            <p class="hero-text">I am passionate about creating intelligent applications and web solutions that help students and users solve real-world problems.</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="https://drive.google.com/file/d/1NOEDdny_-QjOdgIG70QjtHBbXZcaJoo0/view?usp=sharing" target="_blank" rel="noreferrer">Download Resume</a>
+              <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero-metrics" aria-label="Quick highlights">
+              <article class="metric-pill">
+                <strong>AI solutions</strong>
+                <span>Practical systems with useful outcomes</span>
+              </article>
+              <article class="metric-pill">
+                <strong>Responsive UI</strong>
+                <span>Mobile-first layouts and polished visuals</span>
+              </article>
+              <article class="metric-pill">
+                <strong>Problem solving</strong>
+                <span>Focused on clarity, speed, and impact</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="visual-shell">
+              <div class="visual-grid"></div>
+              <div class="visual-orbit orbit-one"></div>
+              <div class="visual-orbit orbit-two"></div>
+              <div class="ai-sphere"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Curious builder focused on practical technology.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-copy card">
+            <p class="about-intro">I am a Computer Science student interested in Artificial Intelligence, Machine Learning, Python, Web Development, and problem-solving. I enjoy creating projects that combine technology with practical solutions.</p>
+
+            <div class="timeline-grid">
+              <div class="timeline-item">
+                <span class="timeline-badge">Education</span>
+                <h3>Bachelor's in Computer Science</h3>
+                <p>Building a strong foundation in software development, algorithms, and intelligent systems.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-badge">Focus</span>
+                <h3>AI, web apps, and product thinking</h3>
+                <p>Creating interfaces and automation that are useful, modern, and easy to use.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-badge">Goal</span>
+                <h3>Build solutions that create real impact</h3>
+                <p>Turning ideas into polished experiences that solve real problems for users.</p>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1cOdDhhhZG9vIEOQVK2C1zlkcHaK6-TlD/view?usp=drive_link" target="_blank" rel="noreferrer">Download CV</a>
+              <a class="btn btn-secondary" href="#contact">Start a Conversation</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Core technologies and problem-solving tools.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card tilt-card" data-tilt data-level="96">
+            <div class="skill-card-head"><span>HTML</span><strong>96%</strong></div>
+            <p>Semantic structure, accessibility, and strong page foundations.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="94">
+            <div class="skill-card-head"><span>CSS</span><strong>94%</strong></div>
+            <p>Responsive layouts, gradients, glassmorphism, and motion UI.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="92">
+            <div class="skill-card-head"><span>JavaScript</span><strong>92%</strong></div>
+            <p>Interactive behavior, animation triggers, and UI logic.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="86">
+            <div class="skill-card-head"><span>React</span><strong>86%</strong></div>
+            <p>Component-driven interfaces and scalable frontend architecture.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="82">
+            <div class="skill-card-head"><span>Java</span><strong>82%</strong></div>
+            <p>Object-oriented programming and backend problem solving.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="88">
+            <div class="skill-card-head"><span>Python</span><strong>88%</strong></div>
+            <p>Scripting, automation, AI workflows, and rapid prototyping.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="80">
+            <div class="skill-card-head"><span>MySQL</span><strong>80%</strong></div>
+            <p>Data modeling, queries, and reliable storage design.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="84">
+            <div class="skill-card-head"><span>AI/ML Basics</span><strong>84%</strong></div>
+            <p>Classification, recommendation logic, and model-driven features.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="95">
+            <div class="skill-card-head"><span>Responsive Design</span><strong>95%</strong></div>
+            <p>Layouts that adapt cleanly across mobile, tablet, and desktop.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+          <article class="skill-card tilt-card" data-tilt data-level="98">
+            <div class="skill-card-head"><span>Problem Solving</span><strong>98%</strong></div>
+            <p>Structured thinking, debugging, and building practical solutions.</p>
+            <div class="skill-meter"><span></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected builds that combine AI, web development, and utility.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card card tilt-card" data-tilt>
+            <div class="project-art art-skill4shine">
+              <span>SKILL4SHINE</span>
+            </div>
+            <div class="project-content">
+              <h3>SKILL4SHINE</h3>
+              <p>A full-stack skill development platform built with React (Vite) and Django for learning, interview preparation, and placement readiness.</p>
+              <div class="project-tags">
+                <span>React</span><span>Vite</span><span>Django</span><span>REST APIs</span><span>GitHub</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary" href="https://github.com/KothuruAsini/SKILL4SHINE" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-small btn-primary" href="https://skill4shine.onrender.com/login/" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card card tilt-card" data-tilt>
+            <div class="project-art art-edujob">
+              <span>EDU2JOB</span>
+            </div>
+            <div class="project-content">
+              <h3>EDU2JOB</h3>
+              <p>A student job and internship platform built to match education backgrounds with relevant career opportunities.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Quick View</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary" href="https://github.com/KothuruAsini/EDU-JOB" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-small btn-primary" href="https://edu-job-2.onrender.com/" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card card tilt-card" data-tilt>
+            <div class="project-art art-reviewsence">
+              <span>REVIEWSENCE</span>
+            </div>
+            <div class="project-content">
+              <h3>REVIEWSENCE</h3>
+              <p>A customer feedback analysis system that preprocesses review data, cleans unstructured text, and prepares analysis-ready datasets.</p>
+              <div class="project-tags">
+                <span>Python</span><span>Pandas</span><span>Regular Expressions</span><span>Text Processing</span><span>Quick View</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary" href="https://github.com/KothuruAsini/REVIEWSENCE" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-small btn-primary" href="https://github.com/KothuruAsini/REVIEWSENCE" target="_blank" rel="noreferrer">Quick View</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume section reveal" id="resume">
+        <div class="resume-card card">
+          <div>
+            <p class="eyebrow">Resume</p>
+            <h2 class="forced-two-line">Download my latest resume<br />for a quick overview of my background.</h2>
+          </div>
+          <div class="resume-actions">
+            <a class="btn btn-primary btn-large" href="https://drive.google.com/file/d/1NOEDdny_-QjOdgIG70QjtHBbXZcaJoo0/view?usp=sharing" target="_blank" rel="noreferrer">Download Resume PDF</a>
+            <a class="btn btn-secondary btn-large" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 class="forced-two-line">Let’s connect for opportunities,<br />collaborations, or project discussions.</h2>
+        </div>
+
+        <div class="contact-layout">
+          <form class="contact-form card" id="contact-form">
+            <div class="form-grid">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Your email" required />
+              </label>
+            </div>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" placeholder="Tell me about your idea or opportunity" required></textarea>
+            </label>
+            <button class="btn btn-primary btn-large" type="submit">Send Message</button>
+            <p class="form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-stack">
+            <a class="contact-card card" href="mailto:kothuruasini2006@gmail.com">
+              <span>Email</span>
+              <strong>kothuruasini2006@gmail.com</strong>
+            </a>
+            <a class="contact-card card" href="https://www.linkedin.com/in/kothuru-asini-0555b5293" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span>
+              <strong>www.linkedin.com/in/kothuru-asini-0555b5293</strong>
+            </a>
+            <a class="contact-card card" href="https://github.com/KothuruAsini" target="_blank" rel="noreferrer">
+              <span>GitHub</span>
+              <strong>github.com/KothuruAsini</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2026 Kothuru Asini. All Rights Reserved.</p>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/kothuru-asini-0555b5293" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.49 2.5 2.5 0 0 1 4.98 3.5ZM.5 8.5h4.95V24H.5V8.5Zm8.13 0h4.75v2.12h.07c.66-1.25 2.28-2.57 4.7-2.57 5.02 0 5.94 3.3 5.94 7.58V24h-4.95v-7.75c0-1.85-.03-4.23-2.57-4.23-2.57 0-2.96 2-2.96 4.1V24H8.63V8.5Z"/></svg>
+          </a>
+          <a href="https://github.com/KothuruAsini" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.1c-3.34.73-4.04-1.42-4.04-1.42-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.86 2.82 1.32 3.51 1.01.11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.33-5.47-5.92 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.57.12-3.28 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 0 1 6 0C17.79 6 18.8 6.32 18.8 6.32c.66 1.71.25 2.97.12 3.28.77.84 1.24 1.91 1.24 3.22 0 4.6-2.8 5.6-5.48 5.91.43.38.82 1.12.82 2.26v3.35c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a href="mailto:kothuruasini2006@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.23l9 6.32 9-6.32V7H3Zm18 10V9.46l-8.43 5.93a1 1 0 0 1-1.14 0L3 9.46V17h18Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
